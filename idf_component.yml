@@ -6,6 +6,6 @@ files:
     - .git
     - dist
 license: MIT
-repository: https://github.com/dayeon/cuddles-esp-wifi-connect
-url: https://github.com/dayeon/cuddles-esp-wifi-connect
+repository: https://github.com/dayeon5952/cuddles-esp-wifi-connect
+url: https://github.com/dayeon5952/cuddles-esp-wifi-connect
 version: 2.6.1
