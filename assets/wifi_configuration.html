@@ -1310,9 +1310,10 @@
                     throw new Error(data.error || 'Connection failed');
                 }
 
-                // Connection successful, redirect to done page
+                // Connection successful, redirect to done page with language parameter
                 button.disabled = false;
-                window.location.href = '/done.html?lang=' + lang;
+                const lang = document.getElementById('language').value;
+                window.location.href = '/done.html?lang=' + encodeURIComponent(lang);
             } catch (err) {
                 // Hide loading animation on error
                 loadingOverlay.classList.remove('show');

@@ -1,11 +1,11 @@
 dependencies:
-  idf: ">=5.3"
+  idf: '>=5.3'
 description: ESP32 WiFi Configuration
 files:
   exclude:
-    - .git
-    - dist
+  - .git
+  - dist
 license: MIT
-repository: https://github.com/dayeon5952/cuddles-esp-wifi-connect/
-url: https://github.com/dayeon5952/cuddles-esp-wifi-connect/
-version: 3.0.2
+repository: https://github.com/78/esp-wifi-connect
+url: https://github.com/78/esp-wifi-connect
+version: 2.6.1

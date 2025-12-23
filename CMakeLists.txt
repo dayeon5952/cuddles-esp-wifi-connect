@@ -1,6 +1,5 @@
 idf_component_register(
     SRCS
-        "wifi_manager.cc"
         "wifi_configuration_ap.cc"
         "wifi_station.cc"
         "ssid_manager.cc"
